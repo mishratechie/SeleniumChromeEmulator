@@ -18,6 +18,8 @@ public class Chrome {
 		  //Complete list of Arguments you can pass is here
 		  //http://peter.sh/experiments/chromium-command-line-switches/
 		  
+		  //All about chrome capabilities
+		  //https://sites.google.com/a/chromium.org/chromedriver/capabilities
 		 
 		  DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		  capabilities.setCapability(ChromeOptions.CAPABILITY, options);
