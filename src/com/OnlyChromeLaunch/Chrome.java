@@ -15,6 +15,7 @@ public class Chrome {
 		  options.addArguments("--no-sandbox");
 		  options.addArguments("start-maximized");
 		  
+		  
 		 
 		  DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		  capabilities.setCapability(ChromeOptions.CAPABILITY, options);
