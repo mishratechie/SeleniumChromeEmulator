@@ -11,7 +11,11 @@ public class Chrome {
 
 		  System.setProperty("webdriver.chrome.driver", "ChromeDriver/chromedriver.exe");
 		  ChromeOptions options = new ChromeOptions();
+		  options.setBinary("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe");
 		  options.addArguments("--no-sandbox");
+		  options.addArguments("start-maximized");
+		  
+		 
 		  DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		  capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 		  WebDriver webdriver = new ChromeDriver(capabilities);
