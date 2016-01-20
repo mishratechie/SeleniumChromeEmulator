@@ -15,6 +15,8 @@ public class Chrome {
 		  options.addArguments("--no-sandbox");
 		  options.addArguments("start-maximized");
 		  
+		  //Complete list of Arguments you can pass is here
+		  //http://peter.sh/experiments/chromium-command-line-switches/
 		  
 		 
 		  DesiredCapabilities capabilities = DesiredCapabilities.chrome();
