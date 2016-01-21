@@ -10,6 +10,7 @@ public class Chrome {
 	  public static void main(String[] args) throws InterruptedException {
 
 		  System.setProperty("webdriver.chrome.driver", "ChromeDriver/chromedriver.exe");
+		  System.setProperty("webdriver.chrome.logfile", "ChromeDriver/chromedriver.log");
 		  ChromeOptions options = new ChromeOptions();
 		  options.setBinary("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe");
 		  options.addArguments("--no-sandbox");
